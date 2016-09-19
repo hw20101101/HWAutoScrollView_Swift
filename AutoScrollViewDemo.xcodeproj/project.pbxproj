@@ -12,7 +12,7 @@
 		4FB545961D7FBE2C00B0877E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB545941D7FBE2C00B0877E /* Main.storyboard */; };
 		4FB545981D7FBE2C00B0877E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB545971D7FBE2C00B0877E /* Assets.xcassets */; };
 		4FB5459B1D7FBE2C00B0877E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB545991D7FBE2C00B0877E /* LaunchScreen.storyboard */; };
-		4FB545A31D7FBE7800B0877E /* HWAutoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB545A21D7FBE7800B0877E /* HWAutoScrollView.swift */; };
+		515EEFD81D8F8AA900DBBBE4 /* HWAutoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515EEFD71D8F8AA900DBBBE4 /* HWAutoScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		4FB545971D7FBE2C00B0877E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FB5459A1D7FBE2C00B0877E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FB5459C1D7FBE2C00B0877E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FB545A21D7FBE7800B0877E /* HWAutoScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWAutoScrollView.swift; sourceTree = "<group>"; };
+		515EEFD71D8F8AA900DBBBE4 /* HWAutoScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HWAutoScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +40,7 @@
 		4FB545841D7FBE2B00B0877E = {
 			isa = PBXGroup;
 			children = (
+				515EEFD61D8F8AA900DBBBE4 /* HWAutoScrollView */,
 				4FB5458F1D7FBE2B00B0877E /* AutoScrollViewDemo */,
 				4FB5458E1D7FBE2B00B0877E /* Products */,
 			);
@@ -58,13 +59,20 @@
 			children = (
 				4FB545901D7FBE2C00B0877E /* AppDelegate.swift */,
 				4FB545921D7FBE2C00B0877E /* ViewController.swift */,
-				4FB545A21D7FBE7800B0877E /* HWAutoScrollView.swift */,
 				4FB545941D7FBE2C00B0877E /* Main.storyboard */,
 				4FB545971D7FBE2C00B0877E /* Assets.xcassets */,
 				4FB545991D7FBE2C00B0877E /* LaunchScreen.storyboard */,
 				4FB5459C1D7FBE2C00B0877E /* Info.plist */,
 			);
 			path = AutoScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		515EEFD61D8F8AA900DBBBE4 /* HWAutoScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				515EEFD71D8F8AA900DBBBE4 /* HWAutoScrollView.swift */,
+			);
+			path = HWAutoScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +149,7 @@
 			files = (
 				4FB545931D7FBE2C00B0877E /* ViewController.swift in Sources */,
 				4FB545911D7FBE2C00B0877E /* AppDelegate.swift in Sources */,
-				4FB545A31D7FBE7800B0877E /* HWAutoScrollView.swift in Sources */,
+				515EEFD81D8F8AA900DBBBE4 /* HWAutoScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +309,7 @@
 				4FB545A11D7FBE2C00B0877E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
